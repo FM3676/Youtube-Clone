@@ -2,9 +2,10 @@ import React from "react";
 import { Stack, Box } from "@mui/material";
 import VideoCard from "../VideoCard/VideoCard.component";
 import ChannelCard from "../ChannelCard/ChannelCard.component";
+import Loader from "../Loader";
 
 const Videos = ({ videos, direction = "row", justifyContent = "start" }) => {
-  if (!videos?.length) return "Loading";
+if (!videos?.length) return <Loader />;
 
   return (
     <Stack
