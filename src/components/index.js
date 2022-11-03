@@ -5,3 +5,5 @@ export { default as ChannelDetail } from "./ChannelDetail/ChannelDetail.componen
 export { default as SearchFeed } from "./SearchFeed/SearchFeed.component";
 export { default as VideoDetail } from "./VideoDetail/VideoDetail.component";
 export { default as SearchBar } from "./SearchBar/SearchBar.component";
+export { default as SideBar } from "./SideBar/SideBar.component";
+export { default as Videos } from "./Videos/Videos.component";
