@@ -7,3 +7,5 @@ export { default as VideoDetail } from "./VideoDetail/VideoDetail.component";
 export { default as SearchBar } from "./SearchBar/SearchBar.component";
 export { default as SideBar } from "./SideBar/SideBar.component";
 export { default as Videos } from "./Videos/Videos.component";
+export { default as VideoCard } from "./VideoCard/VideoCard.component";
+export { default as ChannelCard } from "./ChannelCard/ChannelCard.component";
